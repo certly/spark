@@ -1,0 +1,19 @@
+/*
+ * Spark Variables...
+ */
+@import "vendor/laravel/spark/resources/assets/sass/themes/spark/variables";
+
+/*
+ * Bootstrap CSS...
+ */
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/**
+ * Spark Essentials...
+ */
+@import "vendor/laravel/spark/resources/assets/sass/essentials";
+
+/*
+ * Spark Styling...
+ */
+@import "vendor/laravel/spark/resources/assets/sass/themes/spark/spark";

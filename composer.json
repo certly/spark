@@ -1,0 +1,30 @@
+{
+    "name": "laravel/spark",
+    "description": "Laravel Spark provides a starter scaffolding for Laravel SaaS applications.",
+    "keywords": ["laravel", "stripe", "billing", "scaffolding"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/cashier": "~6.0",
+        "erusev/parsedown": "~1.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "dompdf/dompdf": "^0.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Spark\\": "app/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
