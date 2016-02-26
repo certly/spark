@@ -19,7 +19,7 @@ Spark is an experimental project primarily intended for building business orient
 
 First, install the Spark installer and make sure that the global Composer `bin` directory is within your system's `$PATH`:
 ```
-	composer global require "laravel/spark-installer=~1.0"
+	composer global require "certly/spark-installer=~1.0"
 ```
 Next, create a new Laravel application and install Spark:
 ```
