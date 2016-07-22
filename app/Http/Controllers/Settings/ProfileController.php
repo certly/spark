@@ -52,7 +52,7 @@ class ProfileController extends Controller
         if (Spark::$updateProfilesWith) {
             $this->callCustomUpdater(Spark::$updateProfilesWith, $request);
         } else {
-            Auth::user()->fill($request->all())->save();
+            Auth::user()->fill($request->only(['name', 'email']))->save();
         }
 
         if (Auth::user()->stripe_id && $originalEmail !== Auth::user()->email) {
